@@ -1,0 +1,23 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-30 00:35:48 +0930
+Processing by ProductController#controller as HTML
+  Rendered product/controller.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 306ms (Views: 245.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-30 00:35:49 +0930
+
+
+Started GET "/product/product?utf8=%E2%9C%93&product%5Bop1%5D=2&commit=Product" for 127.0.0.1 at 2014-06-30 00:35:52 +0930
+Processing by ProductController#product as HTML
+  Parameters: {"utf8"=>"✓", "product"=>{"op1"=>"2"}, "commit"=>"Product"}
+  Rendered product/product.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1169ms (Views: 43.0ms)
+
+
+Started GET "/product/product?utf8=%E2%9C%93&product%5Bop1%5D=4&commit=Product" for 127.0.0.1 at 2014-06-30 00:36:14 +0930
+Processing by ProductController#product as HTML
+  Parameters: {"utf8"=>"✓", "product"=>{"op1"=>"4"}, "commit"=>"Product"}
+  Rendered product/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 766ms (Views: 68.0ms)

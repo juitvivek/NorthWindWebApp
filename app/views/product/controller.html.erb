@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to north wind</title>
+</head>
+<body>
+<h1>Welcome to North Wind</h1>
+<span><b>Enter the product ID: </b></span>
+<%=form_for(:product, :url => {:action => "product"}, :method => "get", :remote => true) do |f|%>
+    <%=f.text_field(:op1)%>
+    <%=submit_tag("Product")%>
+<%end%>
+<div id="result"></div>
+</body>
+</html>
